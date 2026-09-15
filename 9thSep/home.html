@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag</title>
+</head>
+
+<body>
+
+    <form>
+
+        <fieldset>
+            <legend>Personal Info</legend>
+            <table>
+                <tr>
+                    <td><label for="Lakshya">Username :</label></td>
+                    <td><input type="text" id="Lakshya" placeholder="Enter Your Username" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="Anything">Password :</label></td>
+                    <td><input type="password" id="Anything" placeholder="Enter Your Password" required maxlength="8">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="something">Email</label></td>
+                    <td><input type="Email" id="something" placeholder="Please Enter Your Email ID"></td>
+                </tr>
+
+
+                <tr>
+                    <td><label for="xyz">Age :</label></td>
+                    <td><input type="number" id="xyz" min="16" max="26"></td>
+                </tr>
+
+
+                <tr>
+                    <td><label for="abc">DOB with time:</label></td>
+                    <td><input type="datetime-local" id="abc"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="efg">Contact</label></td>
+                    <td><input type="tel" id="efg"></td>
+                </tr>
+
+            </table>
+        </fieldset>
+
+        <br>
+        <fieldset>
+            <legend>Gender</legend>
+            <table>
+                <tr>
+                    <td><input type="radio" name="Gender"></td>
+                    <td><label for="">Male</label></td>
+                    <td><input type="radio" name="Gender"></td>
+                    <td><label for="">Female</label></td>
+
+
+
+                </tr>
+
+
+
+            </table>
+
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Education Qualification</legend>
+
+            <table>
+                <tr>
+                    <td><input type="checkbox" name="Q"></td>
+                    <td><label for="">10th</label></td>
+                    <td><input type="checkbox" name="Q"></td>
+                    <td><label for="">12th</label></td>
+                    <td><input type="checkbox" name="Q"></td>
+                    <td><label for="">Diploma</label></td>
+                    <td><input type="checkbox" name="Q"></td>
+                    <td><label for="">UG</label></td>
+                    <td><input type="checkbox" name="Q"></td>
+                    <td><label for="">Diploma</label></td>
+                    <td><input type="checkbox" name="Q"></td>
+                    <td><label for="">PG</label></td>
+                    <td><input type="checkbox" name="Q"></td>
+                    <td><label for="">Phd</label></td>
+                    <td><input type="checkbox" name="Q"></td>
+                    <td><label for="">ITI</label></td>
+                </tr>
+            </table>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Address</legend>
+
+            <table>
+
+                <tr>
+                    <td>Permanent Address</td>
+                    <td><textarea name="" id=""></textarea></td>
+                </tr>
+                <tr>
+                    <td>Present Address</td>
+                    <td><textarea name="" id=""></textarea></td>
+                </tr>
+                </tr>
+
+            </table>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Choose Your Course</legend>
+            <tr>
+                <td>Select Course</td>
+                <select name="" id="" multiple size="2">
+                    <option value="" selected>CS</option>
+                    <option value="">BCA</option>
+                    <option value="">ITM</option>
+                    <option value="">DS</option>
+                </select>
+            </tr>
+        </fieldset>
+
+        <fieldset>
+            <legend>Upload Resume</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="">Choose Your Cv</label>
+                        <input type="file" name="u">
+                    </td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <td>
+                        <label for="">Choose Number</label>
+                    </td>
+                    <td><input type="range"></td>
+                </tr>
+                <tr>
+                    <td>Choose Color</td>
+                    <td><input type="color"></td>
+                </tr>
+            </table>
+
+
+
+
+        </fieldset>
+
+
+
+
+
+
+        <fieldset>
+            <legend>Food</legend>
+            <table>
+
+                <tr>
+                    <td> <label for="i">Choose Your Favorite Food From Us :</label>
+                        <input list="u">
+                        <datalist id="u">
+                            <option value="Paneer Chilli"></option>
+                            <option value="Rasgulla"></option>
+                            <option value="Soya Chilli"></option>
+                            <option value="Mashroom Chilli"></option>
+                            <option value="Maggie"></option>
+                            <option value="Barfi"></option>
+                            <option value="Deserts"></option>
+                            <option value="Soya Curry"></option>
+                            <option value="Dahi Valla"></option>
+
+
+
+                        </datalist>
+                    </td>
+
+                </tr>
+
+            </table>
+
+
+        </fieldset>
+
+
+
+
+
+
+
+
+
+
+
+        <br>
+
+
+        <button type="submit">LogIn</button>
+        <button type="reset">Reset</button>
+    </form>
+
+
+
+
+
+</body>
+
+</html>
