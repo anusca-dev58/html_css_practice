@@ -1,0 +1,23 @@
+body{
+    margin: auto;
+}
+h1{
+text-align: center;
+align-items: center;
+width: max-content;
+}
+table{
+
+color: black ;
+    height: 450px;
+margin-left: 30%;
+border-collapse: collapse;
+}
+table tr{
+    text-align: center;
+    padding: 1px;
+}
+.end{
+     display: flex;
+    margin-top: 29px;
+}
